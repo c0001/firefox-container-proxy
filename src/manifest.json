@@ -1,12 +1,12 @@
 {
   "manifest_version": 2,
-  "name": "Container proxy",
+  "name": "Container proxy (entropy ver.)",
   "version": "0.1.22",
   "description": "__MSG_General_extensionDescription__",
   "default_locale": "en",
   "applications": {
     "gecko": {
-      "id": "contaner-proxy@bekh-ivanov.me",
+      "id": "{866ad75f-1c41-4918-a9de-2fda74182230}",
       "strict_min_version": "91.1.0"
     }
   },
@@ -36,6 +36,12 @@
     "scripts": [
       "background/index.js"
     ]
+  },
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "default": "Alt+Shift+P"
+      }
+    }
   }
-
 }
